@@ -1,5 +1,5 @@
-#
 Summary:	Stacked GIT
+Summary(pl):	GIT z operacjami na stosie
 Name:		stgit
 Version:	0.10
 Release:	1
@@ -18,6 +18,14 @@ StGIT is a Python application providing similar functionality to Quilt
 operations are performed using GIT commands and the patches are stored
 as GIT commit objects, allowing easy merging of the StGIT patches into
 other repositories using standard GIT functionality.
+
+%description -l pl
+StGIT to aplikacja Pythona udostêpniaj±ca funkcjonalno¶æ podobn± do
+Quilta (tzn. umieszczanie/pobieranie ³at na/ze stosu) w oparciu o GIT.
+Operacje te s± wykonywane przy u¿yciu poleceñ GIT, a ³aty s±
+przechowywane jako obiekty commitów GIT, co pozwala na ³atwe w³±czanie
+³at StGIT do innych repozytoriów przy u¿yciu standardowej
+funkcjonalno¶ci GIT.
 
 %prep
 %setup -q

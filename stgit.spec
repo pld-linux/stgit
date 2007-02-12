@@ -1,5 +1,5 @@
 Summary:	Stacked GIT
-Summary(pl.UTF-8):   GIT z operacjami na stosie
+Summary(pl.UTF-8):	GIT z operacjami na stosie
 Name:		stgit
 Version:	0.10
 Release:	1

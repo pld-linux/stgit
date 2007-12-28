@@ -1,14 +1,16 @@
 Summary:	Stacked GIT
 Summary(pl.UTF-8):	GIT z operacjami na stosie
 Name:		stgit
-Version:	0.12.1
+Version:	0.14.1
 Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://homepage.ntlworld.com/cmarinas/stgit/%{name}-%{version}.tar.gz
-# Source0-md5:	36dd6bbfe80cebaa7cc2c073ece07f3c
+# Source0-md5:	e95e5ccf5e8372a5e1c4e4d09b1171cf
 URL:		http://www.procode.org/stgit/
-BuildRequires:	python
+BuildRequires:	git-core
+BuildRequires:	python-devel
+BuildRequires:	rpm-pythonprov
 Requires:	git-core
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

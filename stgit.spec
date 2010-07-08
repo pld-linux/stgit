@@ -2,7 +2,7 @@ Summary:	Stacked GIT
 Summary(pl.UTF-8):	GIT z operacjami na stosie
 Name:		stgit
 Version:	0.14.3
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications
 Source0:	http://homepage.ntlworld.com/cmarinas/stgit/%{name}-%{version}.tar.gz
